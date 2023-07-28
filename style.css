@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:display=swap");
+
+body{
+    background-color: rgb(132, 216, 235);
+    background:url("image/ima-1.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: scroll;
+ font-size: 2vw;
+ 
+}
+
+#ptag{
+    padding: 5px;
+    text-align: center;
+   color: brown;
+  
+}
+
+
+.navbar{
+  max-width: 500px;
+  border: 15px solid rgb(123, 13, 150);
+  background-color: bisque;
+  padding: 15px;
+  margin: auto;
+  outline: 5px dotted orchid;
+}
+#inlink{
+ padding: 10px;
+ background-color: rgb(77, 192, 15);
+ margin: auto;
+ text-align: center;
+ border-radius: 10px;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: solid;
+font-size: medium;
+font: bold;
+}
+#inlink:hover{
+
+  background-color: rgb(245, 107, 9);
+   color: antiquewhite;
+ }
+
+ .list {
+
+  background-color: cornflowerblue;
+  display: inline-table;
+  padding: 20px;
+  border: 20px;
+  margin-left: 500px;
+ }
+
+ .list ol li{
+  background-color: rgb(42, 2, 2);
+  color: beige;
+ }
+
+ .mytable
+{
+  padding: 150px;
+  background-color: dimgrey;
+  margin-top: 25px;
+
+}
+.mytable:hover
+{
+opacity: 0.7;
+}
+
+.tablebox{
+ width: 60%;
+  padding:100px;
+  margin: auto;
+  background-color:coral ;
+}
+
+.tablebox table{
+ border: 3px solid black;
+ border-collapse: collapse;
+ }
+
+ .tablebox table th{
+  border: 3px solid black;
+  padding: 15px;
+  font-family: cursive;
+  font-size: x-large;
+  background-color: rgb(16, 82, 82);
+  color: aliceblue;
+  }
+  .tablebox table td{
+    border: 3px solid black;
+    font-size: large;
+    padding: 5px;
+    background-color: antiquewhite;
+
+    }
+    .display{
+      background-color: darkgoldenrod;
+      padding: 20px;
+     display: inline-block;
+    }
+
+    .navclass{
+      background-color: rgb(48, 48, 1);
+      padding: 30px;
+      margin-bottom: 30px;
+      position: sticky;
+      top:0;
+    }
+    .float{
+      border: 2px solid black;
+      overflow: auto;
+      margin-top: 10px;
+    }
+    .float p{
+      border: 2px solid black;
+      overflow: auto;
+      margin: 10px;
+      text-align: center;
+    }
+    #img
+    {
+      width: 130px;
+      height: 125px;
+      float: left;
+
+    }
